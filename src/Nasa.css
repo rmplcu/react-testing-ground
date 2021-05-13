@@ -2,6 +2,10 @@
 .li-nasa {
     margin: 15px;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-nasa {
@@ -12,15 +16,15 @@
     cursor: pointer;
 }
 
-.img-nasa:hover {
+.img-nasa.active {
     width: 70%;
     height: 70%;
 }
 
 .info-nasa {
-    position : fixed;
     height: 50%;
     width: 50%;
-    background: red;
+    background-color: #A496A6;
     z-index: 10;
 }
+
