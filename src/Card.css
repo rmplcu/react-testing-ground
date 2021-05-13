@@ -1,0 +1,45 @@
+.mycard {
+    text-align: center;
+    position: relative;
+    margin-top:20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+    margin-left: 50px;
+    border-radius: 25px;
+    font-size: xx-large;
+    outline: 3px solid red;
+    outline-offset: -17px;
+    box-shadow: 15px 15px 5px;
+}
+  
+.child-1 {
+    position:absolute;
+    top: 7%;
+    left: 17%;
+}
+
+.child-2 {
+    position:absolute;
+    top: 7%;
+    left: 67%;
+}
+
+.child-3 {
+    position:absolute;
+    top: 72%;
+    left: 67%;
+}
+
+.child-4 {
+    position:absolute;
+    top: 72%;
+    left: 17%;
+}
+  
+.child-number {
+    text-align: center;
+    position:absolute;
+    top: 40%;
+    left: 42%;
+}

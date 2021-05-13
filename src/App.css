@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+  background-color: #A49694;
+  margin-top: 10px;
+}
+
+.mypar {
+  float:left;
+}
+
+.h3 {
+  font-size: xx-large;
+}
+
+.form {
+  text-align: "left"; 
+  margin-left: "10px"; 
+  margin-top:"10px";
+}
+
+.homepage {
+  font-family: fantasy;
+  position:relative;
+  padding: 265px 250px;
+  z-index: -1;
+}
+
+.love-h3 {
+  margin: 2%;
+  text-transform : capitalize;
+  color : #fff;
+  font-family: 'Luckiest Guy';
+  font-size: 200%;
+}
+
+.glow {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow:  0 0 10px #fff, 
+                  0 0 20px #e60073, 
+                  0 0 30px #e60073, 
+                  0 0 40px #e60073, 
+                  0 0 50px #e60073, 
+                  0 0 60px #e60073, 
+                  0 0 70px #e60073;
+  }
+  to {
+    text-shadow:  0 0 20px #fff, 
+                  0 0 30px #ff4da6, 
+                  0 0 40px #ff4da6, 
+                  0 0 50px #ff4da6, 
+                  0 0 60px #ff4da6, 
+                  0 0 70px #ff4da6, 
+                  0 0 80px #ff4da6;
+  }
+}
+
+.love-h3-gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(183, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.component-div {
+  width: 100%;
+  position: absolute;
+  margin-top: 10%;
+}
+
+.mydiv {
+  position: fixed;
+  background-color: rgba(22, 20, 20, 0.596);
+  margin-top: 10px;
+  width: 100%;
+  z-index: 999;
+}
+
+
+.header {
+  text-align: left;
+  margin-left: 10px;
+  font-family: 'Times New Roman', serif;
+}
+
+.mybutton {
+  background-color:rgba(22, 20, 20, 0.596);
+  border:20px, black;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 1000px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px darkblue;
+}
+
+.myInput { 
+  margin-top: 25px;
+}
+
+.myUL {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.ul-element {
+  margin-bottom: 10px;
+  font-family: 'Courier New', monospace;
+}
+
+.removeButton {
+  background:#C0CAAD;
+  border: none;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pageSelector {
+    align-items: center;
+    padding: 6px 12px;
+    border: none;
+    font: unset;
+    background: none;
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 1000px;
+    margin: 2px;
+    color: var(--black-600);
+    margin-left: 50px;
+}
+
+.selected {
+  background: rgba(255, 68, 0, 0.603);
+}
+
+.variant {
+  background: #824670;
+  color : whitesmoke
+}
+
+.deleted {
+  text-decoration: line-through;
+}
+
+.myCheckbox {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.position-left {
+  float:left;
+}
