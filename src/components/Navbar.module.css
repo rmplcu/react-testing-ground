@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  top: 0;
+  background-color: rgba(22, 20, 20, 0.596);
+}
