@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 import axios from 'axios'
+import NasaCard from './NasaCard'
 
 function Nasa() {
   const [img, setImg] = useState([])
@@ -73,18 +74,7 @@ function Nasa() {
       <ul>
         {img.length !== 0 ? (
           img.map((el) => {
-            return (
-              <li className="li-nasa" key={el.id}>
-                <img
-                  onClick={() => {
-                    handleClick(el)
-                  }}
-                  className="img-nasa"
-                  src={el.img_src}
-                  alt={el.camera.full_name + ' image'}
-                ></img>
-              </li>
-            )
+            return <NasaCard key={el.id} {...el} />
           })
         ) : (
           <h3>Perseverance didn't send any image today</h3>
